@@ -1,0 +1,71 @@
+.index-clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 100px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
+    padding: 40px 40px;
+    background-color: #232323;
+    box-shadow: -8px 8px 1px 1px #ffffff40;
+}
+
+.user-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.user-1 p{
+    font-weight: bold;
+    font-size: var(--14);
+}
+
+.user-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+}
+
+.user-2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--12);
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: linear-gradient(to left top, #ffffff, var(--corPri));
+}
+
+.user-2 a svg{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    padding-right: 5px;
+    fill: #000000;
+}
+
+.user-2 a:hover svg{
+    fill: #ffffff;
+}
+
+.user-2 a:hover{
+    background: linear-gradient(to left top, var(--corPri), var(--corSec));
+    color: #ffffff;
+    transition-duration: 200ms;
+}
